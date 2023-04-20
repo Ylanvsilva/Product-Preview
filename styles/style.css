@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Hanken+Grotesk:wght@500;700;800&family=Montserrat:wght@500;700&display=swap');
+
 body {
     display: flex;
     align-items: center;
@@ -17,7 +19,7 @@ body {
 
     border-radius: 10px;
 
-    background-color: white;
+    background-color: hsl(0, 0%, 100%);
 }
 
 .block_img {
@@ -30,4 +32,92 @@ body {
     border-radius: 10px 0px 0px 10px;
 
     width: 770px;
+}
+
+.block_text h2 {
+    margin-top: 30px;
+    margin-left: 30px;
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 5px;
+
+    color: hsl(228, 12%, 48%);
+}
+
+.block_text h1 {
+    margin-top: 20px;
+    margin-left: 30px;
+
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: bolder;
+    font-size: 32px;
+    letter-spacing: 4px;
+    line-height: .9;
+
+    color: hsl(212, 21%, 14%);
+}
+
+.block_text p {
+    margin-top: 30px;
+    margin-left: 30px;
+
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: .5px;
+    line-height: 20px;
+
+    color: hsl(228, 12%, 48%);
+}
+
+.money_text {
+    margin-top: 30px;
+    margin-left: 30px;
+
+    width: 210px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.money_text h3 {
+    font-size: 36px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+
+    color: hsl(158, 36%, 37%);
+}
+
+.money_text h4 {
+    text-decoration: line-through;
+    font-weight: 500;
+
+    color: hsl(228, 12%, 48%);
+}
+
+.btn {
+    margin-top: 30px;
+    margin-left: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 240px;
+    height: 50px;
+
+    border-radius: 10px;
+    border: none;
+
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(158, 36%, 37%);
+}
+
+.btn h5 {
+    padding: 10px;
 }
