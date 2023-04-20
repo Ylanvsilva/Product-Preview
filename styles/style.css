@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100vw;
+    height: 100vh;
+
+    background-color: hsl(30, 38%, 92%);
+}
+
+.container {
+    display: flex;
+
+    width: 50vw;
+    height: 50vh;
+
+    border-radius: 10px;
+
+    background-color: white;
+}
+
+.block_img {
+    background-image: url('imgs/image-product-desktop.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    filter: grayscale(.2);
+
+    border-radius: 10px 0px 0px 10px;
+
+    width: 770px;
+}
